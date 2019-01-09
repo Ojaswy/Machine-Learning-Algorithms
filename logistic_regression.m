@@ -81,7 +81,7 @@ wnew = w - inv((transpose(phi)*R*phi)) * transpose(phi) * (Y-t);
 
 
 error = 0;
-
+ 
 for n = 1:r 
     
 error = error+( (t(n)*log(Y(n))) + ((1-t(n))*log(1-Y(n))));
