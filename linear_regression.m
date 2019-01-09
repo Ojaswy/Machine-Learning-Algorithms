@@ -1,5 +1,5 @@
 function output = linear_regression(path,degreeM,lambda)
-
+ 
 %Reading input data
 inputData = load(path);
 
