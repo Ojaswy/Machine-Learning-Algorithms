@@ -1,5 +1,5 @@
 function output = neural_network(ftraining_file,ftest_file,flayers,funits_per_layer,frounds)
-
+ 
 test_file = ftest_file;
 
 training_file = ftraining_file;
