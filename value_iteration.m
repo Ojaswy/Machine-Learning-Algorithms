@@ -1,7 +1,7 @@
 function output = value_iteration(envfile,reward,g,k);
 env_file = envfile;
 non_terminal_reward = reward;
-gamma = g;
+gamma = g; 
 no_of_iterations = k;
 import java.util.ArrayList;
 newList = java.util.ArrayList;
