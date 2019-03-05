@@ -1,6 +1,6 @@
 function output = k_means_cluster(training_file,K,iteration)
  
-input_file = training_file;
+input_file = training_file; 
  
 inputData=load(input_file);
 k = K;
