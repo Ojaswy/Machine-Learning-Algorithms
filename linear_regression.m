@@ -37,7 +37,7 @@ if(degreeM==1)
 {
 fprintf('w0=%.4f\n',w(1));
 fprintf('w1=%.4f\n',w(2));
-fprintf('w2=%.4f\n',0); 
+fprintf('w2=%.4f\n',0);
 };
 else
 {

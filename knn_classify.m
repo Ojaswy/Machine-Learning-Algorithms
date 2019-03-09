@@ -1,5 +1,5 @@
 function output = knn_classify(trainingFile,testFile,kval)
-training_file = trainingFile; 
+training_file = trainingFile;
 test_file = testFile;
 k = kval;
 %training_file = 'pendigits_training.txt';

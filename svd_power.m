@@ -114,7 +114,7 @@ for b = 1:bk
 end
 
 V(:,d) = u;
- 
+
 for n = 1:r 
     
     tempVec = squeeze(x(n,d,:));

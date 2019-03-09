@@ -1,11 +1,11 @@
 function output = dtw_classify(trainingFile,testFile)
- 
+
 %training_file = 'asl_training.txt';
 %test_file = 'asl_test.txt';
 training_file = trainingFile;
 test_file = testFile;
 
- fid1 = fopen(training_file); 
+ fid1 = fopen(training_file);
  tline1 = fgetl(fid1);
   k1=0;
   flagval1 = 0;
