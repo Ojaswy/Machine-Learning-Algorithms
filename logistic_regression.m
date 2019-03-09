@@ -34,7 +34,7 @@ for n = 1:r
     for m = 2:c
         
          phi(n,m) = inputData(n,m-1);
-         
+          
     end
 end
 
