@@ -7,7 +7,7 @@ inputData_test = load(test_file);
 % T Matrix
 t = inputData(:,c);
 tt = inputData_test(:,ctest);
-
+ 
 for rt = 1:r
     if t(rt) ~= 1
       
