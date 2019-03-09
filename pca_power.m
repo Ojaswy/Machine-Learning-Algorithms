@@ -5,7 +5,7 @@ inputData=load(training_file);
 inputData_test=load(test_file);
 M = m;
 bk = iterations;
-[r,c] = size(inputData);
+[r,c] = size(inputData); 
 [rt,rc] = size(inputData_test);
 
 x = zeros(r,M,c-1,1);
