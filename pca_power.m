@@ -1,6 +1,6 @@
 function output = pca_power(training_file,test_file,m,iterations) 
 %inputData = load('satellite_training.txt');
-%inputData_test = load('satellite_test.txt');
+%inputData_test = load('satellite_test.txt'); 
 inputData=load(training_file);
 inputData_test=load(test_file);
 M = m;
