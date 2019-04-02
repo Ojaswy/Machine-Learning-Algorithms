@@ -1,4 +1,4 @@
-function output = k_means_cluster(training_file,K,iteration)
+function output = k_means_cluster(training_file,K,iteration) 
 
 input_file = training_file;
 
