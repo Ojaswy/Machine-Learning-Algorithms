@@ -286,7 +286,7 @@ public class dtree
     public ArrayList<Double> chooseAttributesRnd(ArrayList<Integer> examples, ArrayList<Integer> attributes)
     {
         
-        ArrayList<Double> list = new ArrayList<Double>();
+        ArrayList<Double> list = new ArrayList<Double>(); 
         double max_gain = -1;
         double best_attribute = -1;
         double best_threshold = -1;
