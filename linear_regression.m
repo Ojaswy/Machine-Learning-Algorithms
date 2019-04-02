@@ -7,7 +7,7 @@ inputData = load(path);
 x = inputData(:,1); 
 %outputs
 t = inputData(:,2);
-
+ 
 %no of training inputs
 N = length(x);
 M = degreeM+1;
