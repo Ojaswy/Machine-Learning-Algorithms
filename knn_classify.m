@@ -1,4 +1,4 @@
-function output = knn_classify(trainingFile,testFile,kval)
+function output = knn_classify(trainingFile,testFile,kval) 
 training_file = trainingFile;
 test_file = testFile;
 k = kval;
